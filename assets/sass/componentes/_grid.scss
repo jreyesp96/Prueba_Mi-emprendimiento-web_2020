@@ -1,0 +1,18 @@
+.grid__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding: 20px;
+    column-gap: 40px;
+
+    .grid__container {
+        border: 2px solid $charcoal;
+        border-radius: 3px;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    .grid__wrapper {
+        padding: 5px;
+    }
+}

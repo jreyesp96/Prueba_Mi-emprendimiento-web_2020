@@ -1,0 +1,8 @@
+.footer__link.footer__search-bar {
+    border-radius: 5px;
+    transition: 500ms ease;
+
+    &:focus {
+        background-color: $orange;
+    }
+}

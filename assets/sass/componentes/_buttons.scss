@@ -1,0 +1,23 @@
+.navbar__button {
+    border: none;
+
+    .navbar__button-icon {
+        color: $white;
+        transition: 500ms ease;
+
+        &:hover {
+            color: $orange;
+        }
+    }
+}
+
+.footer__link.footer__button {
+    background-color: $white;
+    width: 80px;
+    transition: 500ms ease;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: orange;
+    }
+}

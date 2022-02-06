@@ -1,0 +1,19 @@
+.hero-section {
+    .hero-section__container {
+        @include flex-center-content;
+
+        .hero-section__image {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile) {
+    .hero-section {
+        .hero-section__container {
+            .hero-section__image {
+                width: 100%;
+            }
+        }
+    }
+}

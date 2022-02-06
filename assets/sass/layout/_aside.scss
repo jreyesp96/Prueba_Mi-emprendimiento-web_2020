@@ -1,0 +1,62 @@
+.aside {
+    .aside__container {
+        margin: 20px;
+
+        .aside__about-us {
+            text-align: center;
+
+            .aside__image {
+                width: 250px;
+                border: 2px solid $charcoal;
+                border-radius: 50%;
+                margin: 0 0 20px 0;
+            }
+
+            .aside__company-name {
+                font-weight: $weight-bold
+            }
+
+            .aside__icon {
+                margin: 0 8px;
+                cursor: pointer;
+                transition: 200ms linear;
+
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+
+            .aside__paragraph {
+                text-align: justify;
+            }
+        }
+
+        .aside__courses {
+            .aside__courses-title {
+                background-color: rgb(80, 79, 79);
+                text-align: center;
+                padding: 5px 0;
+                font-family: $poppins;
+                font-weight: $weight-bold;
+                color: $white;
+            }
+
+
+        }
+    }
+}
+
+.aside__list {
+    padding: 0 20px;
+    list-style: circle;
+
+    .aside__list-item {
+        margin-top: 2px;
+
+        .aside__course {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@mixin reset {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+@mixin flex-center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $black;
+
+    .navbar__container {
+        display: flex;
+
+        .navbar__logo-image {
+            width: 50px;
+        }
+
+        .navbar__list {
+            margin-left: auto;
+
+            .navbar__link {
+                color: $white;
+                font-weight: $weight-bold;
+            }
+        }
+    }
+}

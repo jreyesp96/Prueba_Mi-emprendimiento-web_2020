@@ -1,0 +1,41 @@
+.article {
+    .article__container {
+        .article__course-container {
+            margin: 20px;
+            padding: 5px;
+            border: 1px dotted rgba(128, 128, 128, 0.514);
+            border-radius: 3px;
+
+            .article__image {
+                object-fit: cover;
+                width: 100%;
+            }
+
+            .article__title {
+                font-weight: $weight-bold;
+            }
+
+            .article__author {
+                font-weight: $weight-bold;
+            }
+
+
+        }
+
+    }
+}
+
+.article__icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+
+    .article__icon {
+        cursor: pointer;
+        transition: 200ms linear;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
